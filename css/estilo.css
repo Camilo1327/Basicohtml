@@ -26,19 +26,19 @@ position: relative;
 width:100%;
 height:100%;
 }
-#banner .contenedor{
-position: absolute;
+#banner .conte{
+position:left;
 top:50% ;
 left:50%;
 color: blueviolet;
-transform:translateX(-470px)translateY(-250px) ;
+
 }
 .menu a{
-    display: inline-flex;
-    color:#fff;
-    height: 50px;
+    display:inline-table;
+    color:#ffffff;
+    height:40px;
     text-decoration: initial;
-    padding: 22px;
+    padding: 15px;
     border: 0px solid #fff;
 }
 .menu a:hover{
@@ -47,9 +47,11 @@ transform:translateX(-470px)translateY(-250px) ;
 #bienvenidos{
 	padding:15px;
 	text-transform:uppercase;
+	color: greenyellow;
 	}
 	#Servicios{
 	padding:50px;
+	color: greenyellow;
 	}
 	
 	#Servicios h3{
@@ -103,19 +105,26 @@ transform:translateX(-470px)translateY(-250px) ;
 
 	}
 	#opcion{
-		background: #02b698;
-		color: #fff;
+		background: #fff;
+		color: #0c1650;
 		text-align: center;
 		padding: 30px;
 	}
 	#opcion h2{
-		padding: 15px;
-		text-transform: uppercase;
+		
+			padding: 15px;
+			text-transform: uppercase;
 	}
 	#opcion .contenedor{
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: left;
+		justify-content: center;
+	}
+	#opcion img{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		border:7px solid #0c1650;
 	}
 	.cont{
 		margin: 60px;
@@ -128,3 +137,72 @@ transform:translateX(-470px)translateY(-250px) ;
 		border:7px solid #fff;
 
 	}
+	#promociones{
+		background: #0c1650;
+		color: #fff;
+		text-align: center;
+		padding: 30px;
+	}
+	#promociones h2{
+		padding: 15px;
+		text-transform: uppercase;
+	}
+	#promociones .contenedor{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.info-mascota{
+		margin: 60px;
+
+	}
+	.info-mascota img{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		border:7px solid #fff;
+
+	}
+
+	#ubicacion h1{
+			font-size: 25px;
+			font-weight: bold;
+			text-transform: uppercase;
+	}
+	#ubicacion .contenedor{
+		display: flex;
+		padding: 35px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+#ubicacion{
+
+	background: #fff;
+	color: #0c1650;
+	text-align: center;
+	padding: 50px;
+}
+footer{
+	background:#9ba1c4;
+
+}
+footer .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 30px;
+	color: #0c1650;
+}
+.copy {
+	font-size: 20px;
+	padding: 20px;
+}
+.red-social{
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+}
+.red-social a{
+	color: #fff;
+	text-decoration: none;
+}
